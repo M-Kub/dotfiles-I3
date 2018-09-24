@@ -1,0 +1,15 @@
+{
+  "segments": [
+    "virtual_env",
+    "username",
+    "cwd",
+    "git",
+    "jobs",
+    "root"
+  ], 
+    "cwd": {
+    "max_depth": 1,
+    "mode": "plain"    
+  },
+    "theme": "~/mythemes/own.py"
+}
