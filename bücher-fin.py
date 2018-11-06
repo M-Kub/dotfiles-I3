@@ -20,7 +20,7 @@ def buch_daten(bücher):
             break
 
     outputFile = open("books.csv", "a", newline="")
-    fieldnames = ['Autor', 'Titel']
+    fieldnames = ["Autor", "Titel"]
     outputWriter = csv.DictWriter(outputFile, fieldnames=fieldnames, delimiter="\t")
     for key, val in bücher.items():
         #outputWriter.writeheader()
